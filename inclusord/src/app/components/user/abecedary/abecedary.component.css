@@ -1,0 +1,126 @@
+/*navegacion*/
+.btn-back,.btn-next{
+    cursor: pointer;
+}
+/*estilos generales*/
+
+/*navegacion*/
+.btn-back,.btn-next{
+    cursor: pointer;
+}
+/*style general*/
+#structure{
+   background: #26bfc7;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    zoom:0;
+    background-image: url("http://senainclusord.000webhostapp.com/api/v1/resources/img/backgrounds/background_two.png");
+
+}
+
+/*end style general*/
+
+/*star style section primary*/
+
+#step-primary{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.content-video{
+    background-image: url(http://senainclusord.000webhostapp.com/api/v1/resources/img/home/marco_1.png) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: block;
+    max-width: 600px;
+  padding: 98px 0px 15px 2px;;
+}
+.content-video video{ 
+    width: 52%;
+    display: block;
+    margin: auto;
+}
+
+/*End style section primary*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*seccion 3*/
+#step-tree{
+    margin-top: 30px;
+    display: none;
+}
+
+#step-tree .content-video{
+    background-image: url(http://senainclusord.000webhostapp.com/api/v1/resources/img/home/marco_1.png) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px auto 0;
+    display: block;
+    /* max-width: 578px; */
+   padding: 57px 27px 104px 36px;
+}
+#step-tree .content-video video{
+    width: 65%;
+}
+#step-tree .image{
+    height: 250px;
+}
+#step-tree .image img{
+    max-height: 230px;
+    display: block;
+    width: 80%;
+    margin:auto;
+    cursor: pointer;
+}
+#step-tree .word p{
+    opacity: 0;
+    width: 60%;
+    margin:auto;
+    display: block;
+    padding: 10px 5px;
+    background: #ccc;
+    border:1px #777 solid;
+}
+
+.info{
+    border: 4px #fff solid;
+    border-radius: 10px;
+    background: #62c1ef;
+    display: block;
+    max-width: 260px;
+    padding: 15px 0 0 0;
+    top: 9px;
+    position: relative;
+    z-index: 9999999;
+    left: 28px;
+    display: none
+    /* margin: auto; */
+    /* display: none; */
+}
+.info p{
+    font-size: 19px;
+    color: #1b7096;
+    text-align: center;
+}

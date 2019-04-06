@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box    
+}
+.row{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+/*Styles for copy in file header*/
+.navigation{
+    display: block
+}
+.navigation a{
+    justify-content: flex-end;
+    padding: 4px;
+    widows: 70px;
+}
+.navigation a img{
+    width: 75px;
+    margin: 10px 0 0 0;
+}
+body{
+    min-width: 300px !important;
+}
+
+/*end styles for copy*/
